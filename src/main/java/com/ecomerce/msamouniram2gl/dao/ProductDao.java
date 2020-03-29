@@ -10,8 +10,8 @@ import java.util.List;
  * Classe: M2GL
  */
 public interface ProductDao {
-    Product findById(int id);
-    Product save(Product product);
-    List<Product> findAll();
+    public Product findById(int id);
+    public Product save(Product product);
+    public List<Product> findAll();
 
 }
